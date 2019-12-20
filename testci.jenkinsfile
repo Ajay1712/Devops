@@ -1,0 +1,20 @@
+pipeline{
+  agent any
+    stages{
+       stage("git chcekout")
+          steps{
+             sh '''
+              git repos url
+          
+             '''
+          }
+    }
+    stage("any")
+       steps{
+          
+          sh '''
+       
+           '''
+       }
+
+}
